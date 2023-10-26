@@ -6,4 +6,4 @@ django-fontawesome
 django-markdownx
 django-taggit
 django-widget-tweaks
- gunicorn
+gunicorn
