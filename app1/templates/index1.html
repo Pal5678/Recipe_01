@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://media.istockphoto.com/id/1203224636/vector/healthy-food-concept-seamless-pattern-and-background-with-line-icons.jpg?s=612x612&w=0&k=20&c=QT8PaTiuScrk_mYEkX-Oh2QUqCXyfIogr_bOxQ7j3rE='); /* Set your image URL here */
+        background-size: cover; /* Adjust to your preference */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+      }
+
+      .video-container {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 20px;
+      }
+
+      .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .video-button {
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .video-button:hover {
+        background-color: #555;
+      }
+
+      .page-link {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+      .search-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+
+      .search-bar {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 100%;
+        max-width: 400px;
+        font-size: 16px;
+        box-shadow: none;
+      }
+
+      .search-button {
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+
+      .search-button:hover {
+        background-color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Our Recipe Website</h1>
+      <p>Discover amazing recipes and cooking tutorials!</p>
+
+      <!-- Search bar -->
+      <div class="search-container">
+        <input
+          class="search-bar"
+          type="text"
+          placeholder="Search for recipes..."
+        />
+        <button class="search-button">Search</button>
+      </div>
+      <br />
+
+      <div class="video-row">
+        <!-- ... your video links ... -->
+        <a class="video-link" href="">
+          <div class="video-container">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/1QeAcyWz198"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <a href="app3"
+            ><button class="video-button">Watch Recipe</button></a
+          >
+        </a>
+        <h2>Featured Recipes</h2>
+        <a class="video-link" href="video2.html">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pFeQnVvS-yI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a href="app4"
+            ><button class="video-button">Watch Recipe</button></a
+          >
+        </a>
+        <br />
+        <a class="video-link" href="video3.html">
+          <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/tlPubZVcQjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+          <a href="app"
+            ><button class="video-button">Watch Recipe</button></a
+          >
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
